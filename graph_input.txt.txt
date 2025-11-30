@@ -1,0 +1,16 @@
+Graph Analysis Results
+
+--- Adjacency Matrix (Rows/Cols are 1-based Vertices) ---
+0 1 0 0 
+0 0 1 1 
+0 0 0 1 
+1 0 0 0 
+Adjacency Matrix (Rows/Cols are 1-based Vertices) successfully written to graph_output.txt
+
+--- Incidence Matrix (Rows=Vertices 1-4, Cols=Edges 1-5, +1=Tail, -1=Head) ---
+V\E 1 2 3 4 5 
+1   1 0 0 -1 0 
+2   -1 1 0 0 1 
+3   0 -1 1 0 0 
+4   0 0 -1 1 -1 
+Incidence Matrix (Rows=Vertices 1-4, Cols=Edges 1-5, +1=Tail, -1=Head) successfully written to graph_output.txt
